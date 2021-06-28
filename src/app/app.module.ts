@@ -7,6 +7,11 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContactComponent } from './contact/contact.component';
+import { LoginComponent } from './auth/login/login.component';
+import { RegisterComponent } from './auth/register/register.component';
+import { ShopComponent } from './shop/shop.component';
+import { ProductsComponent } from './shop/products/products.component';
+import { SingleProductComponent } from './shop/single-product/single-product.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +19,12 @@ import { ContactComponent } from './contact/contact.component';
     HeaderComponent,
     HomeComponent,
     FooterComponent,
-    ContactComponent
+    ContactComponent,
+    LoginComponent,
+    RegisterComponent,
+    ShopComponent,
+    ProductsComponent,
+    SingleProductComponent
   ],
   imports: [
     BrowserModule,
