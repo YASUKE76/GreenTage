@@ -12,6 +12,7 @@ import { RegisterComponent } from './auth/register/register.component';
 import { ShopComponent } from './shop/shop.component';
 import { ProductsComponent } from './shop/products/products.component';
 import { SingleProductComponent } from './shop/single-product/single-product.component';
+import { CartComponent } from './shop/cart/cart.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { SingleProductComponent } from './shop/single-product/single-product.com
     RegisterComponent,
     ShopComponent,
     ProductsComponent,
-    SingleProductComponent
+    SingleProductComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,
